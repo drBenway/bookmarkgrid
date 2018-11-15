@@ -1,0 +1,15 @@
+{
+  "name": "bookmarkgrid",
+  "main": "bookmarkgrid.js",
+  "authors": [
+    "Yves Peeters2 <Yves.peeters2@ing.be>"
+  ],
+  "description": "grid to hold bookmarks",
+  "license": "MIT",
+  "homepage": "",
+  "dependencies": {
+    "custom-elements": "webcomponents/custom-elements#^1.2.1",
+    "shadydom": "webcomponents/shadydom#^1.2.0",
+    "web-component-tester": "Polymer/web-component-tester#^6.5.0"
+  }
+}

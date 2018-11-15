@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <script src="../bower_components/custom-elements/externs/custom-elements.js"></script>
+    <script src="../bower_components/shadydom/externs/shadydom.js"></script>
+    <script src="../bower_components/web-component-tester/browser.js"></script>
+    <script src="../bookmarkgrid.js"></script>
+</head>
+<body>
+
+<bookmark-grid></bookmark-grid>
+
+<script>
+    suite('<bookmark-grid>', function() {
+        let component = document.querySelector('bookmark-grid');
+        test('renders div', function() {
+            assert.isOk(component.querySelector('div'));
+        });
+    });
+</script>
+</body>
+</html>
